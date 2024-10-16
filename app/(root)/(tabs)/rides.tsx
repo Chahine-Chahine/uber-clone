@@ -1,12 +1,12 @@
 import { View , Text} from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context";
 
-const Home = () =>{
+const Rides = () =>{
     return(
         <SafeAreaView className={'items-center'}>
-            <Text>Hello from index</Text>
+            <Text>Rides</Text>
         </SafeAreaView>
     )
 }
 
-export default Home;
+export default Rides;

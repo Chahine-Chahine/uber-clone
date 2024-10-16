@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const Home = () =>{
     return(
         <SafeAreaView className={'items-center'}>
-            <Text>Hello from index</Text>
+            <Text>Hello world!</Text>
         </SafeAreaView>
     )
 }
