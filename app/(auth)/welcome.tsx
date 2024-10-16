@@ -17,7 +17,7 @@ const Home = () => {
     <SafeAreaView className="flex h-full items-center justify-between bg-white">
       <TouchableOpacity
         onPress={() => {
-          router.replace("/(auth)/signup");
+          router.replace("/(auth)/sign-up");
         }}
         className="w-full flex justify-end items-end p-5"
       >
